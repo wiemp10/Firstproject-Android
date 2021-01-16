@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeactivity"
+    android:orientation="vertical"
+    android:background="@color/txtcolor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome to Travel Anywhere"
+        android:gravity="center_horizontal"
+        android:textColor="@color/myfav"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+    <Button
+        android:id="@+id/basic_btn"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Basic Views"
+        android:background="#DD5A50"
+        android:textSize="18dp"
+        android:textColor="#000000"
+       android:layout_marginRight="20dp"
+        />
+    <Button
+        android:id="@+id/implict"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:text="Implicit Intent"
+        android:background="#0AE3E3"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:onClick="implict"
+
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/webview"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="Web View"
+            android:background="#F4E031"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+
+            />
+        <Button
+            android:id="@+id/listbtn"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="List View"
+            android:background="#A77DF1"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:onClick="listbtn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/customlist"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="Custom List"
+            android:background="#73BEDF"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:onClick="customlist"
+            />
+        <Button
+            android:id="@+id/gridbtn"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="Grid View"
+            android:background="#F68279"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:onClick="gridbtn"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/noti"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:text="Notification"
+            android:background="#BF7057"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginRight="20dp"
+            android:onClick="notify"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

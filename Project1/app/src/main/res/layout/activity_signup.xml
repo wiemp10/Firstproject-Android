@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup"
+    android:orientation="vertical"
+    android:background="@drawable/body_bg">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Travel Anywhere"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:background="@drawable/edittext_bg"
+        android:textColorHint="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Password"
+        android:background="@drawable/edittext_bg"
+        android:textColorHint="@color/black"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/edittext_bg"
+        android:textColorHint="@color/black"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/butn_bg"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/signin_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+
+</LinearLayout>
